@@ -6,7 +6,7 @@ title: "スライド：最終講義 - 春山 鉄源"
 
 下のボタンをクリックすると、スライドをブラウザーで閲覧、もしくは、PDFファイルをダウンロードできます。
 
-[ブラウザーで閲覧](./){.btn .btn-primary target="_self"}
+[ブラウザーで閲覧](./slides.html){.btn .btn-primary target="_self"}
 
 [PDFをダウンロード](https://github.com/spring-haru/final_lecture/releases/latest/download/slides.pdf){.btn .btn-primary target="_blank"}
 
