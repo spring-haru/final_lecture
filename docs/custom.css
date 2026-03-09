@@ -1,0 +1,273 @@
+/* 表紙タイトル */
+.reveal h1 {
+  font-size: 2em;
+}
+
+/* スライドタイトル（#） */
+.reveal .title-slide h1 {
+  font-size: 2em !important;
+}
+
+/* スライドタイトル（##） */
+.reveal h2 {
+  font-size: 1.3em;
+}
+
+/* 本文テキスト */
+.reveal p {
+  font-size: 1em;
+}
+
+/* 箇条書き */
+.reveal ul,
+.reveal ol {
+  font-size: 1em;
+}
+
+/* フォント赤 */
+.red {
+  color: red;
+}
+
+/* フォント青 */
+.blue {
+  color: blue;
+}
+
+/* フォント緑 */
+.green {
+  color: green;
+}
+
+.reveal .highlight-green {
+  color: #006400;         /* 濃い緑 */
+  font-weight: 700;
+  background-color: #fff3a0; /* 柔らかい黄色 */
+  padding: 7px 8px;
+}
+
+.reveal .highlight-red {
+  color: red;         /* 赤 */
+  font-weight: 700;
+  background-color: #fff3a0; /* 柔らかい黄色 */
+  padding: 7px 0;
+}
+
+.reveal .box {
+  display: block;
+  width: fit-content;     /* テキスト幅に合わせる */
+  margin-left: auto;      /* ボックスを中央に */
+  margin-right: auto;
+  padding: 12px 18px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  text-align: left;       /* ← これが重要 */
+  background-color: #f8f8f8;
+}
+
+/* タイトルは除外して本文だけ変更 */
+.reveal .small-body p,
+.reveal .small-body li {
+  font-size: 0.95em;
+}
+
+
+/* タイトルは除外して本文だけ変更 */
+.reveal .small-body-2 p,
+.reveal .small-body-2 li {
+  font-size: 0.9em;
+}
+
+/* 表全体の文字サイズを調整 */
+.reveal .small-table table {
+  font-size: 0.82em;
+}
+
+/* 表のセル余白を少し詰める */
+.reveal .small-table th,
+.reveal .small-table td {
+  padding: 0.28em 0.45em;
+  vertical-align: middle;
+}
+
+/* 1列目をやや強調 */
+.reveal .small-table th:first-child,
+.reveal .small-table td:first-child {
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+/* 必要ならさらに小さくする版 */
+.reveal .xsmall-table table {
+  font-size: 0.72em;
+}
+
+.reveal .xsmall-table th,
+.reveal .xsmall-table td {
+  padding: 0.22em 0.36em;
+  vertical-align: middle;
+}
+
+/* 表全体 */
+.reveal .slides section .fixed-table {
+  width: 100% !important;
+  table-layout: fixed !important;
+  border-collapse: collapse;
+}
+
+/* セル共通 */
+.reveal .slides section .fixed-table th,
+.reveal .slides section .fixed-table td {
+  padding: 0.28em 0.45em;
+  vertical-align: middle;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* フォントサイズ */
+.reveal .slides section.small-table .fixed-table,
+.reveal .slides section .small-table .fixed-table,
+.reveal .small-table .fixed-table {
+  font-size: 0.82em;
+}
+
+/* 1列目を少し強調 */
+.reveal .slides section .fixed-table th:first-child,
+.reveal .slides section .fixed-table td:first-child {
+  font-weight: 600;
+}
+
+/* 特定語句を折り返さない */
+.reveal .slides section .fixed-table .nowrap {
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+/* ===============================
+   Final slide: robust centring
+   =============================== */
+
+/* 1) Live HTML view */
+.reveal .slides section.final-slide {
+  display: grid !important;
+  place-items: center !important;
+  min-height: 100vh !important;
+  padding: 0 !important;
+}
+
+.reveal .slides section.final-slide .final-content {
+  max-width: 80%;
+  text-align: center !important;        /* change to centre if you want */
+  line-height: 1.4;
+  font-size: 1.1em;
+  font-weight: 100;
+  margin: 0;
+}
+
+/* Hide the (empty) title line Quarto may emit */
+.reveal .slides section.final-slide > h1,
+.reveal .slides section.final-slide > h2,
+.reveal .slides section.final-slide > h3 {
+  display: none !important;
+  margin: 0 !important;
+}
+
+/* 2) PDF/print mode: force centring with absolute positioning
+   (works even when reveal.js disables/changes vertical centring in print-pdf) */
+@media print {
+
+  .reveal .slides section.final-slide {
+    display: block !important;       /* override grid in print */
+    position: relative !important;
+    height: 100vh !important;        /* print engines vary; vh is usually honoured */
+    padding: 0 !important;
+    overflow: hidden !important;     /* avoids accidental extra blank page */
+  }
+
+  .reveal .slides section.final-slide .final-content {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 80% !important;           /* keeps multi-line blocks tidy */
+    margin: 0 !important;
+  }
+}
+
+/* Some reveal.js print flows add a class; make it extra-sticky */
+.reveal.print-pdf .slides section.final-slide {
+  display: block !important;
+  position: relative !important;
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+.reveal.print-pdf .slides section.final-slide .final-content {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 80% !important;
+}
+
+
+
+
+
+/* -------------------Vertically + horizontally centre EVERYTHING on that slide */
+.reveal .slides section.center-slide {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important; /* vertical */
+  align-items: center !important;     /* horizontal */
+  height: 100% !important;
+  text-align: center;
+}
+
+/* Hide the (empty) title line Quarto may still generate */
+.reveal .slides section.center-slide > h2 {
+  display: none !important;
+  margin: 0 !important;
+}
+
+/* Remove default paragraph spacing so centring is visually true */
+.reveal .slides section.center-slide p {
+  margin: 0 !important;
+}
+
+/*  ---------- 縦書き ----------------------*/
+/* スライド全体の中央に配置 */
+.reveal .slides section .vertical-stage {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+  width: 100%;
+}
+
+/* 縦書きブロック本体 */
+.reveal .slides section .vertical-block {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-align: left;         /* 縦書きでは実質的に上揃え */
+  line-height: 1.6;
+  white-space: nowrap;      /* 意図しない折り返しを防ぐ */
+  font-size: 1.9em;
+}
+
+/* 1行ずつ明示的に管理する */
+.reveal .slides section .vertical-line {
+  display: block;
+}
+
+/* 2行分の空白 */
+.reveal .slides section .vspace-2 {
+  display: block;
+  height: 3.2em;            /* 2 × line-height(≈1.6em) */
+}
+
