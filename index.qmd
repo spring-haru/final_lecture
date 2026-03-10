@@ -8,5 +8,8 @@ title: "スライド：最終講義 - 春山 鉄源"
 
 [ブラウザーで閲覧](./slides.html){.btn .btn-primary target="_self"}
 
+- PC：矢印キー（$\leftarrow$ $\rightarrow$）でスライドを進める／戻すことができます。
+- スマートフォン：画面を左右または上下にスワイプするとスライドが切り替わります。
+
 [PDFをダウンロード](https://github.com/spring-haru/final_lecture/releases/latest/download/slides.pdf){.btn .btn-primary target="_blank"}
 
