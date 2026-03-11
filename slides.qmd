@@ -16,7 +16,7 @@ format:
 ---
 
 
-# スライドのコピー
+# 配布資料
 
 :::: columns
 ::: {.column width="55%"}
@@ -26,7 +26,7 @@ format:
 bit.ly/123haru
 </span>
 
-![](images/QR.png){width=90%}
+![](images/QR.png){width=80%}
 
 
 :::
