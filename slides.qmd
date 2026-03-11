@@ -15,19 +15,36 @@ format:
     auto-stretch: false
 ---
 
+
 # スライドのコピー
 
 :::: columns
-::: {.column width="65%"}
-![](images/QR.png){width=100% fig-align="center"}
-:::
-::: {.column width="35%"}
-左のQRコードからスライドをブラウザーで閲覧、もしくは、PDFをダウンロードできます。
-<br><br>
+::: {.column width="55%"}
+<br>
 
-紙ベースの資料は教室の入り口付近にあります（たぶん）。
+<span style="font-size:50px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">
+bit.ly/123haru
+</span>
+
+![](images/QR.png){width=90%}
+
+
+:::
+
+::: {.column width="45%"}
+
+紙の資料は教室の入口付近にあります。
+
+<br>
+
+左のQRコードを読み取るか，
+上のURLを開くと  
+スライドをブラウザーで閲覧、もしくは、
+PDFファイルをダウンロードすることが可能です。
+
 :::
 ::::
+
 
 <!-- もくじ -------------------------------------------------{{{ -->
 # もくじ
@@ -375,7 +392,7 @@ format:
 :::
 <!-- }}} -->
 
-<!-- 今からの分析＝「探偵」 ---------------------------{{{ -->
+<!-- この報告の構造：事件になぞらえる ---------------------------{{{ -->
 ## この報告の構造：事件になぞらえる {.small-table}
 <br>
 
@@ -415,7 +432,8 @@ format:
     </tr>
     <tr>
       <td>仮説</td>
-      <td><span class="highlight-green nowrap">見かけの大木仮説</span></td>
+      <td>資産価格↓ → 需要不足など<br>
+          <span class="highlight-green nowrap">見かけの大木仮説</span></td>
       <td>犯行シナリオ</td>
     </tr>
     <tr>
@@ -481,7 +499,7 @@ format:
 
 <!-- なぜ鉄のトライアングルは機能したのか？ ---------------------------{{{ -->
 ## なぜ鉄のトライアングルは機能したのか？ {.small-body-2}
-- 最先端技術水準からの「<span class="highlight-green">距離</span>」
+- 技術フロンティアからの「<span class="highlight-green">距離</span>」
   - Gerschenkron (1962), Acemoglu, Aghion and Zilibotti (2006, JEEA) 
   - 「<span class="highlight-green">遠い</span>」＝ キャッチアップ段階
   - 既存技術の大量導入・改善で成長可能（例：自動車）
@@ -617,8 +635,8 @@ VCから資金提供を受けた企業数（2018-19年）
 
 <!-- 鉄のトライアングルが機能しない理由 ---------------------------{{{ -->
 ## 鉄のトライアングルが機能しない理由  {.small-body-2}
-- 最先端技術水準からの「<span class="highlight-green">距離</span>」の議論を思い出そう
-- 経済の技術水準と最先端技術水準との「距離」によって最適な政策は異なる
+- 技術フロンティアからの「<span class="highlight-green">距離</span>」の議論を思い出そう
+- 経済の技術水準と技術フロンティアとの「距離」によって最適な政策は異なる
   - 「<span class="highlight-green">遠い</span>」：既存技術の大量導入・改善
     - 非競争的な安定的な関係に基づく長期投資
     - 鉄のトライアングルが適合
@@ -636,16 +654,19 @@ VCから資金提供を受けた企業数（2018-19年）
 <!-- 見かけの大木仮説のまとめ ---------------------------{{{ -->
 ## 見かけの大木仮説のまとめ  {.small-body-2}
 - バブル景気崩壊<span class="highlight-green">前</span>
-  - 最先端技術水準が「遠い」$\Rightarrow$ 既存技術導入・改善
+  - 技術フロンティア「<span style="color:blue; font-weight:bold;">遠い</span>」
+    $\Rightarrow$ 既存技術導入・改善
   - 鉄のトライアングル ＝ 成長の黄金のトライアングル
-  - 企業内創造的破壊 $\Rightarrow$ <span style="color:blue; font-weight:bold;">
+  - 企業内創造的破壊 $\Rightarrow$ <span style="color:green; font-weight:bold;">
     大木に育つ
     </span>
-  - 大木の内部では最先端技術水準に「近い」環境への  
+  - 大木の内部では技術フロンティアに「<span style="color:blue; font-weight:bold;">近い</span>」
+    環境への  
     適応力は形成されなかった
 - バブル景気崩壊<span class="highlight-green">後</span>
   （失われた30年）
-  - 最先端技術水準に「近い」$\Rightarrow$ イノベーション 
+  - 技術フロンティアに「<span style="color:blue; font-weight:bold;">近い</span>」
+    $\Rightarrow$ イノベーション 
   - 鉄のトライアングルが仇となった
   - 外部ショック → 大木の内部の適応力の欠如が顕在化
   - <span style="color:red; font-weight:bold;">
@@ -722,5 +743,61 @@ VCから資金提供を受けた企業数（2018-19年）
 :::
 <!-- }}} -->
 
+<!-- ありがとう ----------------------------------------{{{ -->
+## { .final-slide }
+<div class="vertical-stage">
+  <div class="vertical-block">
+    英日で
+    チョークで板書
+    PC使い
+    家では皆で
+    お茶して笑う
+
+           春山　鉄源
+  </div>
+</div>
+<!-- }}} -->
 
 
+<!-- Aghion and Howitt (1992)の貢献（２） -------------------------{{{ -->
+<!-- ## Aghion and Howitt (1992)の貢献（２）  {.small-body}
+:::: columns
+::: {.column width="65%"}
+技術水準のはしご
+
+![](images/ladder.png){width=70% fig-align="center"}
+:::
+::: {.column width="35%"}
+- 企業の新規参入    
+  $\Rightarrow$ 職の**<span class="red">創出</span>**
+- 古い企業の退出  
+  $\Rightarrow$ 職の**<span class="red">破壊</span>**
+- 様々なバージョンがあり、既存企業が共存するモデルもある
+
+<span style="font-size:18px;">出典：The Middle-Income Trap, 2024, the World Bank</span>
+:::
+::::
+-->
+<!-- }}} -->
+<!-- 創造的破壊と経済成長（２）NOT INCLUDED -------------------------{{{ -->
+<!-- ## 創造的破壊と経済成長（２）
+<br>
+
+:::: columns
+::: {.column width="70%"}
+![](images/job_reallocation_rate.png){width=100% fig-align="center"}
+
+:::
+::: {.column width="30%"}
+- 2010〜2017年
+- 欧州21カ国
+- 横軸：
+
+  職の<span class="red">創出率</span>と<span class="red">破壊率</span>の合計
+
+:::
+::::
+
+<span style="font-size:20px;">出典：The Power of Innovation: Rethinking Capitalism, the Marshall Lecture, University of Cambridge, Oct 22-23, 2025</span>
+-->
+<!-- }}} -->
