@@ -105,15 +105,19 @@ PDFファイルをダウンロードすることが可能です。
 <!-- Aghion and Howitt (1992)の貢献（２） -------------------------{{{ -->
 ## Aghion and Howitt (1992)の貢献（２）  {.small-body}
 :::: columns
-::: {.column width="65%"}
+::: {.column width="60%"}
 技術水準のはしご
 
-![](images/ladder.png){width=70% fig-align="center"}
+![](images/ladder.png){width=85% fig-align="center"}
 :::
-::: {.column width="35%"}
+::: {.column width="40%"}
+<br>
+
 - 様々なバージョンがあり、既存企業が共存するモデルもある
-- 先端技術のフロンティアまでの    
-  「距離」という概念に基づくモデル
+- 派生モデル：先端技術のフロンティアまでの    
+  「<span class="highlight-green">
+  距離
+  </span>」という概念に基づくモデル
 
 <span style="font-size:18px;">出典：The Middle-Income Trap, 2024, the World Bank</span>
 :::
