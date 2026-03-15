@@ -162,7 +162,7 @@
 }
 
 .reveal .slides section.final-slide .final-content {
-  max-width: 80%;
+  max-width: 100%;
   text-align: center !important;        /* change to centre if you want */
   line-height: 1.4;
   font-size: 1.1em;
@@ -257,16 +257,26 @@
   text-align: left;         /* 縦書きでは実質的に上揃え */
   line-height: 1.6;
   white-space: nowrap;      /* 意図しない折り返しを防ぐ */
-  font-size: 1.9em;
+  font-size: 1.5em;
 }
+
 
 /* 1行ずつ明示的に管理する */
 .reveal .slides section .vertical-line {
   display: block;
 }
 
+/* 名前を改行させない */
+.reveal .slides section .tanka-name {
+  display: inline;
+  margin-top: 0.6em;
+  font-size: 0.8em;
+}
+
+
 /* 2行分の空白 */
 .reveal .slides section .vspace-2 {
   display: block;
   height: 3.2em;            /* 2 × line-height(≈1.6em) */
 }
+

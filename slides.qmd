@@ -22,26 +22,22 @@ format:
 ::: {.column width="55%"}
 <br>
 
-<span style="font-size:50px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">
+<span style="font-size:60px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">
 bit.ly/123haru
 </span>
 
-![](images/QR.png){width=80%}
-
-
+![](images/QR.png){width=83%}
 :::
-
 ::: {.column width="45%"}
+<br>
 
 紙の資料は教室の入口付近にあります。
 
 <br>
 
-左のQRコードを読み取るか，
-上のURLを開くと  
+左のQRコードを読み取るか，左上のURLを開くと  
 スライドをブラウザーで閲覧、もしくは、
-PDFファイルをダウンロードすることが可能です。
-
+PDFファイルをダウンロードすることができす。
 :::
 ::::
 
@@ -60,15 +56,13 @@ PDFファイルをダウンロードすることが可能です。
 
 <!-- 背景説明 -----------------------------------------------{{{ -->
 ## 背景説明
-- "A Model of Growth through Creative Destruction", 
-
-  （創造的破壊による経済成長）
-
-  P. Aghion and P. Howitt, 1992, *Econometrica*
+- "A Model of Growth through Creative Destruction",    
+  （「創造的破壊による経済成長」）  
+  Philippe Aghion and Peter Howitt, 1992, *Econometrica*
   - ５年間、"they were killing me"
 - 2025年ノーベル経済学賞
-  - Philippe Aghion, Peter Howitt, Joel Mokyr 
-  - "innovation-driven economic growth"
+  - J. Mokyr (1/2), P. Aghion (1/4), P. Howitt (1/4)
+  - "for having explained innovation-driven economic growth"
 - 博士論文（Oxford）の指導教員がAghion先生
 - 「Grossman and Helpmanは？」と思ってる人に
 
@@ -108,13 +102,13 @@ PDFファイルをダウンロードすることが可能です。
 ::: {.column width="60%"}
 技術水準のはしご
 
-![](images/ladder.png){width=85% fig-align="center"}
+![](images/ladder.png){width=80% fig-align="center"}
 :::
 ::: {.column width="40%"}
 <br>
 
 - 様々なバージョンがあり、既存企業が共存するモデルもある
-- 派生モデル：先端技術のフロンティアまでの    
+- 関連モデル：先端技術のフロンティアまでの    
   「<span class="highlight-green">
   距離
   </span>」という概念に基づくモデル
@@ -149,14 +143,14 @@ PDFファイルをダウンロードすることが可能です。
 - 欧州25カ国
 - 横軸：
 
-  企業<span class="red">参入率</span>と<span class="red">退出率</span>の平均
+  企業<span class="red">参入率</span>と<span class="red">退出率</span>の平均値の和
 - データ：Eurostat
 :::
 ::::
 <!-- }}} -->
 
 <!-- 創造的破壊：広い応用性 ---------------------------------{{{ -->
-## 創造的破壊：広い応用力
+## 創造的破壊：広い応用力   {.small-body}
 - <span class="red">競争とイノベーション</span>
 - 国際貿易
 - 不平等
@@ -165,33 +159,41 @@ PDFファイルをダウンロードすることが可能です。
 - <span class="red">経済発展</span>
 - 政治経済学
 - <span class="red">産業ダイナミックス</span>
-- etc
+- etc (_The Economics of Creative Destruction: New Research on Themes from Aghion and Howitt_, 2023, Harvard Univ Press)
 <!-- }}} -->
 
 <!-- 競争：利潤とイノベーションの関係 -----------------------------{{{ -->
-## 競争：利潤とイノベーションの関係
-- 企業は利潤を得るためにR\&D投資
-  - 利潤$\uparrow$ $\Rightarrow$ R\&D投資$\uparrow$ $\Rightarrow$ イノベーション$\uparrow$ 
-- 競合する企業数$N$が増える場合（新規参入）
-  - $N\uparrow$ $\Rightarrow$ **今の利潤**$\downarrow$
+## 競争：利潤とR&Dのインセンティブ   {.small-body-2}
+- 企業は**<span class="green">将来</span>**の利潤を得るためにR\&D（研究開発）投資
+  - 将来の利潤<span class="red">大</span>
+    $\Rightarrow$ R\&D投資<span class="red">大</span>
+  - 将来の利潤<span class="red">小</span>
+    $\Rightarrow$ R\&D投資<span class="red">小</span>
+- **<span class="green">現在</span>**の利潤？
+  - 現在の利潤<span class="red">大</span>
+    $\Rightarrow$ R\&D投資<span class="red">大</span>
+    $\Rightarrow$ そうとも言える
+  - 現在の利潤<span class="red">小</span>
+    $\Rightarrow$ R\&D投資<span class="red">小</span>
+    $\Rightarrow$ **本当？**
+- 新規参入：競合する企業数<span class="blue">$N$</span>が増える場合
+  - <span class="blue">$N$</span>$\uparrow$ $\Rightarrow$ **今の利潤**$\downarrow$
     $\Rightarrow$ R\&D投資$\downarrow$
-  - $N\uparrow$ $\Rightarrow$ **今の利潤**$\downarrow$
-    $\Rightarrow$ R\&D投資$\color{red}{\boldsymbol\uparrow}$
+  - <span class="blue">$N$</span>$\uparrow$ $\Rightarrow$ **今の利潤**$\downarrow$
+    $\Rightarrow$ ライバルを引き離すインセンティブ$\color{red}{\boldsymbol\uparrow}$
+    $\Rightarrow$ R\&D投資$\color{red}{\boldsymbol\uparrow}$  
 
-    $\because$ **将来の利潤**$\uparrow$のために（マラソン）
-- 含意
-  - 適度な競争は必要
-  - 今の利潤**<span class="red">小</span>**＋将来の利潤**<span class="red">大</span>**
-    $\Rightarrow$ R\&Dインセンティブ**<span class="red">大</span>**
+    $\because$ **将来の利潤**$\color{red}{\uparrow}$のために（例えば、マラソン）
+- 含意：R\&D投資（イノベーション）には**<span class="green">競争が必要</span>**
 
-:::notes
+::: notes
 - 自分と後ろのランナーの距離＝利潤
 :::
 <!-- }}} -->
 
 <!-- 競争：既存企業の二つの戦略 ---------------------------------{{{ -->
 ## 競争：既存企業の二つの戦略
-- 利潤を得ている既存企業を考えよう
+- 現在の利潤を得ている既存企業を考えよう
 - 将来の利潤を得るための二つの戦略
   - 戦略A：R\&D投資（正攻法）
   - 戦略B：<span class="red">参入の阻止</span>（邪道、裏技）
@@ -202,29 +204,42 @@ PDFファイルをダウンロードすることが可能です。
   - カルテル $\Rightarrow$ 厚生の損失
 <!-- }}} -->
 
-<!-- 発展経済：中所得の罠 ---------------------------{{{ -->
-## 発展経済：中所得の罠  {.small-body}
-- The Middle-Income Trap, 2024, the World Bank
-  - 中所得国：US名目GNIの$1.5\% \sim 18\%$
+<!-- 187カ国（2024年）：一人当たりGDPのヒストグラム ---------------------------{{{ -->
+## 187カ国（2024年）：一人当たりGDP
 
-    （名目GNI＝名目GDP＋海外からの所得の純受取）
+![
+<span style="font-size:30px;">
+データ：World Development Indicators
+</span>
+](images/gdp_histogram.png){width=100% fig-align="center"}
+
+<!-- }}} -->
+
+<!-- 発展経済：中所得の罠 ---------------------------{{{ -->
+## 発展経済：中所得の罠
+$\Rightarrow$ 成長率の減速が中所得段階で起きやすいという現象
+<br>
 
 :::: columns
-::: {.column width="43%"}
-![](images/trap.png){width=90% fig-align="center"}
+::: {.column width="55%"}
+![](images/trap.png){width=100% fig-align="center"}
 :::
-::: {.column width="57%"}
+::: {.column width="45%"}
 - 1972〜2010年、69カ国
+- <span class="red">成長減速</span> = 統計学的に成長率に負の構造変化が発生する場合
+- 横軸：  
+  米国を基準とした  
+  一人当たりGDPの階級
 
-- Slowdown = 統計学的に成長率に負の構造変化が発生
-
-- 縦軸 = 各階級である国がある年にSlowdownに該当する割合
+<span style="font-size:30px;">
+出典：_World Development Report 2024: The Middle-Income Trap_
+</span>
 :::
 ::::
 <!-- }}} -->
 
-<!-- 発展経済：言及されている事例 ---------------------------{{{ -->
-## 発展経済：言及されている事例
+<!-- 発展経済：WDR2024で言及されている事例 ---------------------------{{{ -->
+## 発展経済：WDR2024で言及されている事例
 - ミツバ（日本の自動車分品メーカー）
   - 2013年の米独占禁止法違反（カルテル） $\Rightarrow$ 参入抑制
 - インドの制度License Raj
@@ -237,15 +252,53 @@ PDFファイルをダウンロードすることが可能です。
 <!-- }}} -->
 
 <!-- 産業ダイナミックス：イタリア(１) ---------------------------{{{ -->
-## 産業ダイナミックス：イタリア（１）{.nostretch}
-![](images/entry_rate.png){fig-align="center" style="width:80%; display:block; margin:auto;"}
+## 産業ダイナミックス：イタリア（１）
+
+:::: columns
+::: {.column width="75%"}
+![](images/entry_rate.png){fig-align="center" style="width:100%; display:block; margin:auto;"}
+:::
+::: {.column width="25%"}
+<br>
+
+企業の政治家とのつながり
+
+$\quad\Downarrow$
+
+政策への影響
+
+$\quad\Downarrow$
+
+参入抑制
+:::
+::::
+
+
 <span style="font-size:20px;">出典：Connecting to Power: Political Connections, Innovation, and Firm Dynamics, Akcigit et. al, 2018, NBER No25136</span>
+
 <!-- }}} -->
 
 <!-- 産業ダイナミックス：イタリア(２) ---------------------------{{{ -->
-## 産業ダイナミックス：イタリア（２）{.nostretch}
-![](images/italy_X.png){fig-align="center" style="width:80%; display:block; margin:auto;"}
+## 産業ダイナミックス：イタリア（２）
+<br>
+
+![](images/italy_X.png){fig-align="center" style="width:100%; display:block; margin:auto;"}
 <span style="font-size:20px;">出典：Connecting to Power: Political Connections, Innovation, and Firm Dynamics, Akcigit et. al, 2023, *Econometrica*</span>
+<!-- }}} -->
+
+<!-- ここまでのまとめ ---------------------------{{{ -->
+## ここまでのまとめ
+- シュンペーター的経済成長  
+  $\Rightarrow$ 創造的破壊をとおしたイノベーションによる成長
+- 創造的破壊  
+  $\Rightarrow$ 企業の<span class="red">参入</span>＋企業の<span class="red">退出</span>  
+  $\Rightarrow$ 産業の<span class="green">新陳代謝</span>  
+- 既存企業    
+  1. イノベーションを発生させる
+  2. 企業参入を邪魔するインセンティブ      
+    $\Rightarrow$ イノベーションを<span class="red">抑制</span>    
+    $\Rightarrow$ 社会厚生の低下  
+
 <!-- }}} -->
 
 # 見かけの大木仮説
@@ -256,9 +309,9 @@ PDFファイルをダウンロードすることが可能です。
 
 :::: columns
 ::: {.column width="40%"}
-「見かけの位置」とは
+「見かけの深さ」とは
 
-- 観測者の目にそう見えている位置（$A^{\prime}$）であって，実際にオレンジの物体がある位置（$A$）とは異なる
+- 観測者の目にそう見える深さ（$BA^{\prime}$）であって，実際にオレンジの物体がある深さ（$BA$）とは異なる
 
 :::
 ::: {.column width="60%"}
@@ -268,7 +321,7 @@ PDFファイルをダウンロードすることが可能です。
 <!-- }}} -->
 
 <!-- 見かけの大木仮説 ---------------------------{{{ -->
-## 見かけの大木仮説
+## 見かけの大木仮説   {.small-body}
 ::: {.box}
 シュンペーター的成長理論に基づき、
 
@@ -277,13 +330,15 @@ PDFファイルをダウンロードすることが可能です。
 
 :::: columns
 ::: {.column width="62%"}
-![](images/3_countries.png){width=95% fig-align="center"}
+![](images/3_countries.png){width=100% fig-align="center"}
 :::
 ::: {.column width="38%"}
 - 一人あたりGDP（対数）
-- 黒の縦線：1991年
-- ある期間のトレンドの傾き＝平均成長率
-- Maddison Project Database 2020
+- 黒の縦線：<span class="red">1991年</span>
+  バブル景気崩壊
+- ある期間のトレンドの傾き  
+  ＝平均成長率
+- <span style="font-size: 20pt;">データ：Maddison Project Database 2020</span>
 :::
 ::::
 <!-- }}} -->
@@ -350,7 +405,7 @@ PDFファイルをダウンロードすることが可能です。
   - ゾンビ企業🧟‍♂️
     - 銀行が不良債権処理を先送り → 生産性の低い企業を延命
 - TFP成長率（技術進歩率）の構造的低下
-  - 産業間再配分の鈍化、創造的破壊率の低下、内部留保
+  - 産業間再配分の鈍化、利潤の内部留保
 - デフレスパイラルと金融政策の限界
   - デフレ → 実質金利の高止まり（流動性の罠）
 - 人口動態の悪化（少子高齢化）
@@ -360,37 +415,33 @@ PDFファイルをダウンロードすることが可能です。
 <!-- 二つのポイント ---------------------------{{{ -->
 ## 二つのポイント  {.small-body}
 - 独立した要因ではない
-  - バランスシート悪化 → ゾンビ企業🧟‍♂️増加 → TFP低下
-
+  - バランスシート悪化 → ゾンビ企業🧟‍♂️増加 → TFP低下  
     → デフレ圧力 → 実質金利上昇
 - 年代によって重要性は異なる
   - 1990年代：金融危機型停滞
     - バランスシート不況、ゾンビ企業🧟‍♂️、金融政策、
   - 2000年代以降：構造型停滞
-    - 人口高齢化、企業ガバナンス、金融政策、
-
-      低い創造的破壊率
-
+    - 人口高齢化、企業ガバナンス、金融政策、  
+      低い企業参入率
 <!-- }}} -->
 
 <!-- 見かけの大木仮説 ---------------------------{{{ -->
 ## 見かけの大木仮説
-
 <br>
 
-<span class="blue">外形的</span>な繁栄や安定が維持されている一方で、イノベーション環境の変化に対応する<span class="blue">適応力</span>が徐々に低下し、<span class="red">創造的破壊への転換</span>が困難になった<span class="blue">制度</span>を指す仮説
+>繁栄の背後で進んだイノベーション環境の変化に対応する
+><span class="blue">内部適応力</span>が低下し、<span class="red">創造的破壊への転換</span>が阻害された制度構造を指す仮説
 
 <br>
 <br>
 
 既存の説明との違い
 
-- 見かけの大木仮説：    
+- 見かけの大木仮説：      
   日本の高度成長期から現在までの期間を対象
 - 他の説明はバブル崩壊後の説明
 
-
-:::notes
+::: notes
 - 既存の説明はバブル崩壊後の期間
 - この仮説は戦後の高度成長期を含めて考察
 :::
@@ -409,7 +460,7 @@ PDFファイルをダウンロードすることが可能です。
   <thead>
     <tr>
       <th></th>
-      <th>この報告（経済研究）</th>
+      <th>経済研究</th>
       <th>事件の捜査</th>
     </tr>
   </thead>
@@ -436,7 +487,7 @@ PDFファイルをダウンロードすることが可能です。
     </tr>
     <tr>
       <td>仮説</td>
-      <td>資産価格↓ → 需要不足など<br>
+      <td>資産価格↓ $\Rightarrow$ 需要不足など<br>
           <span class="highlight-green nowrap">見かけの大木仮説</span></td>
       <td>犯行シナリオ</td>
     </tr>
@@ -486,7 +537,7 @@ PDFファイルをダウンロードすることが可能です。
 :::
 ::::
 
-:::notes
+::: notes
 企業などが政治家や官僚に働きかけ（ロビー活動など）、自社に有利な法律、規制、補助金などを導入させることで、生産活動を行わずに不当な利益（レント＝利権・超過利潤）を得ようとする行動
 :::
 <!-- }}} -->
@@ -498,7 +549,7 @@ PDFファイルをダウンロードすることが可能です。
 > 企業による（独占）レント獲得・維持のための活動をいう。他企業の参入を阻止する行動や，政府による参入規制または輸入制限政策を実施・温存させるための政治的活動等が典型的。これらの多くは社会的な資源の浪費である。
 <br>
 
-（経済辞典、有斐閣、第５版）
+（『経済辞典』、有斐閣、第５版）
 <!-- }}} -->
 
 <!-- なぜ鉄のトライアングルは機能したのか？ ---------------------------{{{ -->
@@ -507,38 +558,36 @@ PDFファイルをダウンロードすることが可能です。
   - Gerschenkron (1962), Acemoglu, Aghion and Zilibotti (2006, JEEA) 
   - 「<span class="highlight-green">遠い</span>」＝ キャッチアップ段階
   - 既存技術の大量導入・改善で成長可能（例：自動車）
-  - 既存の大企業は資金が潤沢
-    $\rightarrow$ 信用制約を克服
-    $\rightarrow$ 大規模投資が可能
-    $\rightarrow$ 企業の選別は重要ではない
+  - 信用制約
+    $\rightarrow$ 既存の大企業は資金が潤沢
+    $\rightarrow$ 大規模投資が可能  
+    $\rightarrow$ 企業の選別（生産性が高い）は重要ではない
   - メインバンク制 → 長期資本配分
   - 非競争的な安定的な関係に基づく取り決めが最適
   - 情報の非対称性の軽減、大蔵省による護送船団方式の政策
   - <span class="blue">企業内</span><span class="red">創造的破壊</span>
     $\rightarrow$ 長期雇用制度
-- 強調の失敗の克服、幼稚産業保護、高貯蓄率 $\Rightarrow$ 資本蓄積、    
-  教育 $\Rightarrow$ 人的蓄積
+- 他の要因：強調の失敗の克服、幼稚産業保護、高貯蓄率 $\Rightarrow$ 資本蓄積、教育 $\Rightarrow$ 人的蓄積
 
-:::notes
+::: notes
 後発性が利点
 :::
 <!-- }}} -->
 
 <!-- 鉄のトライアングルの問題点 ---------------------------{{{ -->
 ## 鉄のトライアングルの問題点  {.small-body-2}
-- トライアングルが結束しようとする強いインセンティブ
+- トライアングルの頂点が結束しようとする強いインセンティブ
 
   $\Rightarrow$ <span class="red">外性的ショックに耐える適応力の欠如</span>
   - 既得権益を守るインセンティブの拡大（e.g. 農業）
-  - 米国・英国のような市場原理に基づく構造改革なし
+  - 米国・英国のような市場原理に基づく構造改革の遅れ
     - 小さな政府：大幅減税、規制緩和、労働市場改革など
   - 米国・英国：後に続くイノベーションの土壌を整理したと解釈可
     - ベンチャー資本の発展、M&Aの活発化、市場競争導入
-    - 実証研究：競争は技術革新の促進
+  - 実証研究：競争（貿易自由化）は技術イノベーションを促進
 - ストレステスト $\Rightarrow$ 二つのショック
-  - 1990–1992：資産価格バブル崩壊
-  - 1997–1998：金融システム・ショック
-
+  - 1991：資産価格バブル崩壊
+  - 1997–1998：金融システム・ショック  
     （e.g. 山一證券の破綻とガバナンス問題）
 <!-- }}} -->
     
@@ -552,21 +601,23 @@ PDFファイルをダウンロードすることが可能です。
   - 退出すべき企業に貸し出しゾンビ🧟‍♂️化させる
 
     （デフォルト認定を回避し損失確定を遅らせる）
-- <span class="red">官僚はそれを許容し、抜本的な政策を控えた</span>
+- <span class="red">官僚はそれを許容し、抜本的な政策を控えた</span>    
+  その理由は？
 
 <span class="highlight-green">鉄のトライアングルを維持する強いインセンティブの結果</span>
 <!-- }}} -->
 
 <!-- 何もしなかったわけではないが、、、 ---------------------------{{{ -->
-## 何もしなかったわけではないが、、、  {.small-body}
+## 何もしなかったわけではないが、、、  {.small-body-2}
 - 経済政策
   - 電電公社民営化、国鉄分割民営化、金融自由化、  
     金融システム改革、郵政民営化、規制改革・市場開放、etc
 - 政治家 x 官僚：内閣人事局による官僚人事の政治主導など
 - 政治家 × 財界：政治資金規正法改正など
+  - 1994年から企業団体献金と政党交付金が共存
+  - 2004年経団連会長「カネを出すが口も出す」
 - 官僚 × 財界：天下り規制強化など
-- 1993年の細川政権成立、しかし、    
-  1994年以降自民党政権復帰
+- 1993年の細川政権成立、しかし、1994年以降自民党政権復帰
 
 <span style="color:red; font-weight:bold;">
 鉄のトライアングルの再編 → 存続
@@ -582,7 +633,7 @@ PDFファイルをダウンロードすることが可能です。
 ::: {.column width="35%"}
 1998-2015年の平均
 
-- $\dfrac{\text{参入率}}{\text{退出率}}$ （比率）
+- $\dfrac{\text{参入率}}{\text{|退出率|}}$ （比率）
   - 日本：<span style="color:red;font-weight:bold;">0.30</span>
   - 平均(日本以外)：<span style="color:green;font-weight:bold;">1.13</span>
 - 「破壊」はできたが「創造」ができていない
@@ -603,7 +654,7 @@ VCから資金提供を受けた企業数（2018-19年）
 ![<span style="font-size:20px;">出典：The Middle-Income Trap, 2024, the World Bank</span>](images/venture_capital.png){width=90% fig-align="center"}
 
 
-:::notes
+::: notes
 - ベンチャー・キャピタルの供給側と需要側
 - 需要側の話
 :::
@@ -611,7 +662,9 @@ VCから資金提供を受けた企業数（2018-19年）
 
 <!-- 企業の参入費用の比較：1999年（85カ国） ---------------------------{{{ -->
 ## 企業の参入費用の比較：1999年（85カ国） { .small-table}
+<span class="blue">
 スタートアップが法的地位を取得するために必要な手続き
+</span>
 
 |                 | <span class="red">日本</span>      | 米国    | タイ  | 平均 |
 |----------------:|----------:|--------:|------:|-----------:|
@@ -639,11 +692,11 @@ VCから資金提供を受けた企業数（2018-19年）
 
 <!-- 鉄のトライアングルが機能しない理由 ---------------------------{{{ -->
 ## 鉄のトライアングルが機能しない理由  {.small-body-2}
-- 技術フロンティアからの「<span class="highlight-green">距離</span>」の議論を思い出そう
+- 技術フロンティアまでの「<span class="highlight-green">距離</span>」の議論を思い出そう
 - 経済の技術水準と技術フロンティアとの「距離」によって最適な政策は異なる
   - 「<span class="highlight-green">遠い</span>」：既存技術の大量導入・改善
     - 非競争的な安定的な関係に基づく長期投資
-    - 鉄のトライアングルが適合
+    - 鉄のトライアングル ＝ 成長の黄金のトライアングル
   - 「<span class="highlight-green">近い</span>：イノベーションに基づく戦略
     - イノベーションを実行するうえで効率的な企業が必要
     - 市場メカニズムにる企業の<span style="color:blue;font-weight:bold;">選別</span>   
@@ -652,16 +705,16 @@ VCから資金提供を受けた企業数（2018-19年）
       より効率的な企業に入れ替わる創造的破壊が重要な役割
       </span>
 - 1990年代以降
-  - <span class="highlight-green">日本は技術のフロンティアにある</span>
+  - <span class="highlight-green">日本は技術のフロンティアに</span><span class="highlight-red">近い</span>
 <!-- }}} -->
 
 <!-- 見かけの大木仮説のまとめ ---------------------------{{{ -->
 ## 見かけの大木仮説のまとめ  {.small-body-2}
 - バブル景気崩壊<span class="highlight-green">前</span>
-  - 技術フロンティア「<span style="color:blue; font-weight:bold;">遠い</span>」
+  - 技術フロンティアまで「<span style="color:blue; font-weight:bold;">遠い</span>」
     $\Rightarrow$ 既存技術導入・改善
   - 鉄のトライアングル ＝ 成長の黄金のトライアングル
-  - 企業内創造的破壊 $\Rightarrow$ <span style="color:green; font-weight:bold;">
+  - <span class="blue">企業内</span><span class="red">創造的破壊</span> $\Rightarrow$ <span style="color:green; font-weight:bold;">
     大木に育つ
     </span>
   - 大木の内部では技術フロンティアに「<span style="color:blue; font-weight:bold;">近い</span>」
@@ -669,11 +722,11 @@ VCから資金提供を受けた企業数（2018-19年）
     適応力は形成されなかった
 - バブル景気崩壊<span class="highlight-green">後</span>
   （失われた30年）
-  - 技術フロンティアに「<span style="color:blue; font-weight:bold;">近い</span>」
-    $\Rightarrow$ イノベーション 
+  - 技術フロンティアに「<span style="color:blue; font-weight:bold;">近い</span>」  
+    $\Rightarrow$ <span class="red">創造的破壊</span>に基づくイノベーション 
   - 鉄のトライアングルが仇となった
-  - 外部ショック → 大木の内部の適応力の欠如が顕在化
-  - <span style="color:red; font-weight:bold;">
+  - 外部ショック $\Rightarrow$ 大木の内部の適応力の欠如が顕在化  
+    $\Rightarrow$ <span class="highlight-red">
     見かけの大木
     </span>
     が露呈
@@ -698,25 +751,12 @@ VCから資金提供を受けた企業数（2018-19年）
     2年以内に現状の**<span class="red">10倍以上</span>**の民間投資額が必要
 <!-- }}} -->
 
-<!-- 創造的破壊、失業、リスクを取れる環境 ---------------------------{{{ -->
-## 創造的破壊、失業、リスクを取れる環境  {.small-body}
-- 企業の参入による創造的破壊 → 職の創出・<span class="red">破壊</span>  
-  → 労働者は<span class="red">失職</span>
-  - 失業者への対応
-- フレキシキュリティ（flexicurity＝flexible＋security）
-  - 次の特徴を組み合わせたデンマークの労働市場政策
-  1. 企業に対する柔軟な雇用・解雇ルール
-  2. 労働者に対する高水準の所得保障
-  3. 労働者の再就職を支援する積極的労働市場政策
-- 起業家の失敗 → <span class="red">失職</span>
-  - リスクを取れる環境の整理が必要
-<!-- }}} -->
-
 # 結論
 
 <!-- 非収束の罠 ---------------------------{{{ -->
 ## 非収束の罠  {.small-body-2}
 - Acemoglu, Aghion and Zilibotti (2006, JEEA) 
+  - 技術フロンティアまでの「<span class="highlight-green">距離</span>」
 - 非収束の罠
   - 既存技術の大量導入政策を続けすぎると、技術のフロンティアに収束できなくなる
 
@@ -726,7 +766,8 @@ VCから資金提供を受けた企業数（2018-19年）
 
 <!-- 日本経済に必要なこと ---------------------------{{{ -->
 ## 日本経済に必要なこと  {.small-body}
-- 非収束の罠からの離脱（cf.「失われた30年：特徴２」）
+- 失われた30年 ＝ 非収束の罠？
+- 罠からの離脱が必要
 - ①参入企業による創造的破壊と  
   ②企業内創造的破壊の  
   両輪によるイノベーション主導の経済成長
@@ -742,7 +783,7 @@ VCから資金提供を受けた企業数（2018-19年）
 ## { .final-slide }
 
 ::: {.final-content}
-<span style="font-size:50px;font-weight:bold;">22年間ありがとうございました。</span>
+<span style="font-size:55px;font-weight:bold;">22年間ありがとうございました。</span>
 
 :::
 <!-- }}} -->
